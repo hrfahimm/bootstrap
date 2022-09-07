@@ -1,0 +1,425 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <!--font oswam icon-->
+    <script src="https://kit.fontawesome.com/b8234c8044.js" crossorigin="anonymous"></script>
+    
+    <!---google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Handlee&family=Montserrat&family=Roboto&display=swap" rel="stylesheet">
+    <!---cdn -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+  <body>
+    <div class="container">
+        <header>
+            <nav class="navbar navbar-expand-lg">
+                <div class="container-fluid">
+                  <a class="navbar-brand" href="#"> 
+                    <h1 class="navbar-brand" >F<span style="color:aqua;">ahim</span></h1>
+                  </a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                     <span><i class="fa-solid fa-bars-progress navbar-icon"></i></span>
+                  </button>
+
+                  <form class="d-flex justify-content-center align-items-center  " role="search">
+                    <input class="form-control  border-dark"   type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success bg-dark text-white" type="submit">Search</button>
+                  </form>
+
+                  <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                    <ul class="navbar-nav ml-auto nav-text small">
+                      <li class="nav-item">
+                        <a class="nav-link active text-center text-md-left "  style="color:white; background:rgb(141, 246, 70 );" href="#">Home</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link text-center text-md-left color" href="#tutorial">Tutorial</a>
+                      </li>
+                      <li class="nav-item dropdown text-center text-md-left">
+                        <a class="nav-link dropdown-toggle color" href="#aboutme" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          About Me
+                        </a>
+                        <ul class="dropdown-menu bg-secondary ">
+                          <li><a class="dropdown-item text-center text-md-left text-white bg-secondary" href="#contect">Fahim</a></li>
+                          <li><a class="dropdown-item text-center text-md-left text-white bg-secondary" href="#feedback">Naeem </a></li>
+                        </ul>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link disabled text-center text-md-left color" style="color: white;">Disabled</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </nav>
+
+              <section id="banner">
+                <div class="banner-container d-flex justify-content-center align-items-center">
+                    <div class="banner-content text-center">
+                        <h1 class="font-weight-bold text-white mb-5">Hasibur Rahman Fahim !!!</h1>
+                        <button class="btn btn-dark btn-lg m-3" onclick="location.href='#tutorial'"><i class="fa-solid fa-anchor-circle-check p-2"></i>Tutorial</button>
+                        <button class="btn btn-dark btn-lg m-3" onclick="window.open('https://fahimweb.netlify.app/')" class="request-callback"><i class="fa-solid fa-house-chimney-crack p-2"></i>Fahim Taj</button>
+                    </div>
+                </div>
+              </section>
+        </header>
+        <main>
+          <section id="features" class="text-center text-light">
+            <div class="row ">
+              <div class="col-lg-4 d-block d-lg-flex justify-content-center ">
+                <div class="features-col ">
+                  <i class="fa-solid fa-hand-middle-finger fa-3x icon-style rounded-circle "></i>
+                  <h5 class="font-weight-bold">Free to use</h5>
+                  <p class="small">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, sit.</p>
+                </div>
+              </div>
+              <div class="col-lg-4 d-block d-lg-flex justify-content-center ">
+                <div class="features-col">
+                  <i class="fa-solid fa-hand-middle-finger fa-3x icon-style rounded-circle "></i>
+                  <h5 class="font-weight-bold">Free to use</h5>
+                  <p class="small">  I am Hasibur Rahman Fahim</p>
+                </div>
+              </div>
+              <div class="col-lg-4 d-block d-lg-flex justify-content-center">
+                <div class="features-col">
+                  <i class="fa-solid fa-hand-middle-finger fa-3x icon-style rounded-circle "></i>
+                  <h5 class="font-weight-bold">Free to use</h5>
+                  <p class="small">Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, sit.</p>
+                </div>
+              </div>
+            </div>
+          </section>
+          <section id="aboutme">
+            <div class="section-title">
+              <h3 class="text-center text-white mb-3">About Me</h3>
+              <hr class="hr-style mb-5" style="border-color:rgb(197, 178, 178);">
+            </div>
+
+            <div class="row "> 
+              <div class="col-lg-5">
+                <div class="basic-desc text-center text-lg-left bor">
+                  <i class="fa-solid fa-person-drowning icon-style rounded-circle fa-2x mb-3"></i>
+                  <h5 class="font-weight-bolder mb-2">Parsonal Info</h5>
+                  <p>HAsibur Rahman Fahim</p>
+                  <p>Peofession : Computer Sciench Mastor</p>
+                  <p>Current address : Nattur Laxmipur</p>
+                  <p>website: <a href="https://fahimweb.netlify.app/" target="blank">www.fahim.com </a> </p>
+                  <p><a href="">
+                    <button class="btn btn-secondary mt-4">Download CV</button>
+                  </a></p>
+                </div>
+              </div>
+            </div>
+
+            <div class="row mb-5 mb-lg-0">
+              <div class="col-lg-7"></div>
+              <div class="col-lg-5">
+                <div class="achieve-desc text-center text-lg-left bor">
+                  <i class="fa-solid fa-person icon-style rounded-circle fa-2x mb-3"></i>
+                  <h5 class="font-weight-bolder mb-2 ">Achivement</h5>
+                  <p><span>100% Tuition Waiver: </span> Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt, quidem.</p>
+                  <p><span>Public Bank: </span> $00000 tk Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum, iusto.</p>
+                  <p><span>Silver Button: </span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis ipsam totam at magni odit harum?</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="row"> 
+              <div class="col-lg-5">
+                <div class="basic-desc text-center text-lg-left bor">
+                  <i class="fa-solid fa-person-drowning icon-style rounded-circle fa-2x mb-3"></i>
+                  <h5 class="font-weight-bolder mb-2">Parsonal Info</h5>
+                  <p>HAsibur Rahman Fahim</p>
+                  <p>Peofession : Computer Sciench Mastor</p>
+                  <p>Current address : Nattur Laxmipur</p>
+                  <p>website: <a href="https://fahimweb.netlify.app/" target="blank">www.fahim.com </a> </p>
+                  <p><a href="">
+                    <button class="btn btn-secondary  mt-4 ">Download CV</button>
+                  </a></p>
+                </div>
+              </div>
+            </div>
+
+            <div class="row mb-5 mb-lg-0">
+              <div class="col-lg-7"></div>
+              <div class="col-lg-5">
+                <div class="achieve-desc text-center text-lg-left bor">
+                  <i class="fa-solid fa-person icon-style rounded-circle fa-2x mb-3"></i>
+                  <h5 class="font-weight-bolder mb-2 ">Achivement</h5>
+                  <p><span>100% Tuition Waiver: </span> Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt, quidem.</p>
+                  <p><span>Public Bank: </span> $00000 tk Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum, iusto.</p>
+                  <p><span>Silver Button: </span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis ipsam totam at magni odit harum?</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="row ">
+              <div class="col-lg-5">
+                <div class="scill-desc text-center text-lg-left bor bg-white border-dark">
+                  <i class="fa-solid fa-person icon-style text-center rounded-circle fa-2x mb-3"></i>
+                  <h5 class=" font-weight-bolder text-danger border p-3">Skills</h5>
+                  <table class="table center text-center text-lg-left " >
+                    <tr class="">
+                      <td>HTML</td>
+                      <td>
+                        <span class="star">
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="far fa-star"></i>
+                        </span>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>CSS</td>
+                      <td>
+                        <span class="star ">
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="far fa-star"></i>
+                          <i class="far fa-star"></i>
+                        </span>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>JS</td>
+                      <td>
+                        <span class="star">
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star-half"></i>
+                          <i class="far fa-star"></i>
+                          <i class="far fa-star"></i>
+                        </span>
+                      </td>
+                    </tr>
+                    <tr>
+                     
+                  </table>
+                </div>
+              </div>
+            </div>
+
+          </section>
+          <section id="tutorial">
+            <div class="section-title">
+              <h3 class="text-center mb-3">Card</h3>
+              <hr class="hr-style mb-5" style="border-color:black;">
+            </div>
+            <div class="row text-center mb-3">
+              <div class=" d-block d-lg-flex justify-content-center col-lg-3 col-md-6 col-sm-12">
+                <div class="card mb-5 m-lg-2">
+                  <img class="card-img-top card-img " src="image/img1.jpg" alt="">
+                  <div class="card-body text-center">
+                    <h3 class="cad-title font-weight-bolder">Fahim</h3>
+                    <a href="#" class="stretched-link"></a>
+                  </div>
+                </div>
+              </div>
+              <div class="d-block d-lg-flex  justify-content-center col-lg-3 col-md-6 col-sm-12">
+                <div class="card mb-5 m-lg-3">
+                  <img class="card-img-top card-img " src="image/img2.jpg" alt="">
+                  <div class="card-body text-center">
+                    <h3 class="cad-title font-weight-bolder">Ston</h3>
+                    <a href="#" class="stretched-link"></a>
+                  </div>
+                </div>
+              </div>
+              <div class="d-block d-lg-flex justify-content-center col-lg-3 col-md-6 col-sm-12">
+                <div class="card mb-5 m-lg-3">
+                  <img class="card-img-top card-img " src="image/img3.jpg" alt="">
+                  <div class="card-body text-center">
+                    <h3 class="cad-title font-weight-bolder">Letter</h3>
+                    <a href="#" class="stretched-link"></a>
+                  </div>
+                </div>
+              </div>
+              <div class="d-block d-lg-flex justify-content-center col-lg-3 col-md-6 col-sm-12">
+                <div class="card mb-5 m-lg-3">
+                  <img class="card-img-top card-img w-sm-100" src="image/img4.jpg" alt="">
+                  <div class="card-body text-center">
+                    <h3 class="cad-title font-weight-bolder">Finger</h3>
+                    <a href="#" class="stretched-link"></a>
+                  </div>
+                </div>
+              </div>
+              <div class="d-block d-lg-flex justify-content-center col-lg-3 col-md-6 col-sm-12">
+                <div class="card mb-5 m-lg-3">
+                  <img class="card-img-top card-img  " src="image/img5.jpg" alt="">
+                  <div class="card-body text-center">
+                    <h3 class="cad-title font-weight-bolder">Top</h3>
+                    <a href="#" class="stretched-link"></a>
+                  </div>
+                </div>
+              </div>
+              <div class="d-block d-lg-flex justify-content-center col-lg-3 col-md-6 col-sm-12">
+                <div class="card mb-5 m-lg-3">
+                  <img class="card-img-top card-img " src="image/img6.jpg" alt="">
+                  <div class="card-body text-center">
+                    <h3 class="cad-title font-weight-bolder">Smill</h3>
+                    <a href="#" class="stretched-link"></a>
+                  </div>
+                </div>
+              </div>
+              <div class="d-block d-lg-flex justify-content-center col-lg-3 col-md-6 col-sm-12">
+                <div class="card mb-5 m-lg-3">
+                  <img class="card-img-top card-img " src="image/img7.jpg" alt="">
+                  <div class="card-body text-center">
+                    <h3 class="cad-title font-weight-bolder">Fahim</h3>
+                    <a href="#" class="stretched-link"></a>
+                  </div>
+                </div>
+              </div>
+              <div class="d-block d-lg-flex justify-content-center col-lg-3 col-md-6 col-sm-12">
+                <div class="card mb-5 m-lg-3">
+                  <img class="card-img-top card-img " src="image/img8.jpg" alt="">
+                  <div class="card-body text-center">
+                    <h3 class="cad-title font-weight-bolder">Fahim</h3>
+                    <a href="#" class="stretched-link"></a>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </section>
+
+          <section id="feedback" class="bg-secondary">
+            <div class="section-title ">
+              <h1 class="text-center pt-3 fahim">Fahim</h1>
+              <hr class="hr-style ">
+            </div>
+            <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+              <div class="carousel-indicators font-weight-xxl  " >
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0"aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" class="active"  aria-current="true"  aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+              </div>
+              <div class="carousel-inner mb-5  ">
+                <div class="carousel-item">
+                  <img src="image/sl1.jpg" class="d-block w-100 sl-img" alt="...">
+                  <div class="carousel-caption d-none d-md-block">
+                     <h2>Hasibur Rahman Fahim</h2>
+                    <p class="s-text">Some representative placeholder content for the first slide.</p>
+                  </div>
+                </div>
+                <div class="carousel-item   active">
+                  <img src="image/sl2.jpg " class="d-block w-100 sl-img" alt="...">
+                  <div class="carousel-caption d-none d-md-block">
+                  </div>
+                </div>
+                <div class="carousel-item  ">
+                  <img src="image/sl3.jpg " class="d-block w-100 sl-img" alt="...">
+                  <div class="carousel-caption d-none d-md-block">
+                    <p class="s-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium, eum.</p>
+                  </div>
+                </div>
+              </div>
+              <button class="carousel-control-prev  font-weight-xxl" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next  font-weight-xxl " type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                <span class="carousel-control-next-icon " aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </section>
+
+          <section id="contect">
+            <div class="section-title m-5">
+              <h1 class="text-center text-light ">Fahim</h1>
+              <hr class="hr-style">
+            </div>
+            <div class="row">
+              <div class="col-lg-12">
+                <form action="mail-to:fahimtaj10@gamil.com" method="post" enctype="text/plain" class="was-validated">
+                  <div class="form-group mb-2">
+                    <label for="fullname">Full Name : </label>
+                    <input type="text" class="form-control" name="fillname" required>
+                    <div class="valid-feedback">valid</div>
+                    <div class="invalid-feedback" style="color: white;">Enter Fullname before submitting the form</div>
+                  </div>
+
+                  <div class="form-group  mb-2">
+                    <label for="email">Email : </label>
+                    <input type="email" class="form-control" name="email" required>                    
+                  </div>
+
+                  <div class="form-group  mb-2">
+                    <label for="message">Meassage : </label>
+                     <textarea style="resize:none;" name="" id="" cols="30" rows="4" class="form-control"></textarea>                    
+                  </div>
+
+                  <div class="form-group  m-5   text-center">
+                     <input type="submit" class=" btn btn-info border m-3 " value="submit">                 
+                     <input type="reset" class=" btn btn-info border m-3 " value="reset">                 
+                  </div>
+
+                </form>
+              </div>
+            </div>
+          </section>
+
+        </main>
+        <footer>
+          <div class="row text-white"> 
+            <div class="col-lg-6 text-center text-lg-left mb-3 mb-lg-0">
+              <p class="small mb-0 mt-1">&copy; Copyright Hasibur Rahman </p>
+            </div>
+            <div class="col-lg-6 text-center text-lg-right">
+              <a href="#" class="font-weight-bolder">Home</a>
+              <a href="#"><i class="fab fa-facebook"></i></a>
+              <a href="#"> <i class="fab fa-youtube"></i></a>
+              <a href="#"> <i class="fab fa-instagram"></i></a>
+
+            </div>
+          </div>
+        </footer>
+
+    </div>
+     
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+    <!---
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js" integrity="sha384-ODmDIVzN+pFdexxHEHFBQH3/9/vQ9uori45z4JjnFsRydbmQbmL5t1tQ0culUzyK" crossorigin="anonymous"></script>
+    -->   
+  </body>
+</html>

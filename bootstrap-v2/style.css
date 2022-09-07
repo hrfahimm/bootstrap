@@ -1,0 +1,271 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: 'Handlee', cursive;
+font-family: 'Montserrat', sans-serif;
+
+
+}
+h1,h2,h3,h4,h5{
+    font-family: 'Roboto', sans-serif;
+
+}
+
+
+
+header{
+    background-image:url(image/1121877.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.hr-style{
+    border: 7px dotted rgb(194, 185, 185);
+    border-bottom: none;
+    text-align: center;
+    width:60px;
+     margin: auto;
+}
+.section-title h3{
+    font-weight: bolder;
+    margin-bottom: 0;
+
+}
+
+
+
+.banner-container{
+    height: 100vh;
+}
+.navbar{
+    /* padding: 0% 0%; */
+    background-color: rgba(0,0,0,0.3);
+}
+.navbar-icon{
+    color: white;
+    
+
+}
+.navbar-brand{
+    font-size:70px;
+    color:#f9004d;
+    margin-right: 50px;
+    font-family:cursive; 
+    letter-spacing:.5px;
+   
+    
+}
+.nav-link{
+    color: white;
+    margin: 10px;
+    border-radius: 5px;
+    transition: .4s;
+}
+.nav-link:hover{
+    background: rgb(141, 246, 70);
+    color: white;
+    transform: scale(1.1);
+}
+.nav-item a{
+    font-weight: 900;
+}
+.banner-container h1{
+    font-size: 3.5rem;
+    background-color: rgba(19, 28, 36, 0.8);
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-family:'handlee','cursive';
+}
+.color{
+    background-color: rgba(19, 28, 36, 0.8);
+}
+
+
+#features{
+    padding: 5% 10%;
+    background: #464545;
+
+}
+.features-col{
+    border: 2px solid #cf2f7a;
+    border-radius: 20px;
+    padding: 15px;
+    margin: 20px 0px ;
+    transition: .3s;
+    box-shadow: #1b1b1b;
+
+}
+.features-col:hover{
+    transform: scale(1.1);
+    box-shadow: 2px 6px 5px black;
+}
+.icon-style{
+    background: #1b1b1b;
+    color: rgb(35, 212, 212);
+    padding: 15px 15px;
+    margin: 5px 5px;
+    width:auto;
+    height: auto;
+}
+
+
+
+#aboutme{
+    padding: 4% 10%;
+    background:#0a0909d8;
+    padding-top: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+#aboutme a{
+    font-size: 0.9rem;
+     color: black;
+    font-weight: lighter;
+    text-decoration: underline;
+}
+#aboutme p{
+    font-size: 0.9rem;
+    margin-bottom: 0;
+    font-weight: lighter;
+
+}
+ .achieve-desc span{
+    font-weight: 900;
+    text-shadow: #866e80;
+
+ }
+.star i{
+    width: 15px;
+    
+}
+.bor{
+    border: 2px solid rgb(10, 10, 10);
+    padding: 15px;
+    margin: 10px;
+    border-radius: 10px;
+    background: #b0d87bdc;
+     
+}
+.btn:hover{
+    background: #169b9b;
+    transform: scale(1.1);
+    transition: .5s;
+    color: black;
+    font-size: bolder;
+    font-family:'handlee','cursive';
+    border: 1px solid black;
+
+}
+
+#tutorial{
+    padding: 4% 10%;
+    background: #a3d2ca;
+}
+.card{
+    transition: .4s;
+    border: 3px solid #050c0b;
+}
+.card:hover{
+    transform: scale(1.1);
+    box-shadow: 2px 6px 5px rgb(83, 214, 197);
+
+}
+.card-img{
+    width: auto;
+    height: 250px;
+     
+}
+ 
+
+#feedback{
+    background:black;
+    
+}
+.sl-img{
+    border-radius: 300px;
+    /* padding: 30px; */
+    width: 916px !important;
+    height: 391px;
+    margin: 9rem 15rem 16rem 15rem;
+
+}
+.sl-text{
+    border-radius: 300px;
+    padding: 150px;
+    width: 120px;
+    height: auto;
+}
+ 
+ .fahim{
+    font-weight: 900;
+    font-size: 50px;
+    font-family:'handlee','cursive';
+ }
+
+
+ #contect{
+    padding: 2% 10%;
+    background-color: #5eaaa8;
+ }
+ 
+ .form-group label{
+    margin-bottom: 0px;
+    font-weight: bolder
+ }
+
+ footer{
+    padding: 2% 10%;
+    background: #645e63;
+ }
+ footer a{
+    color: white;
+    margin: 0px 10px;
+    
+ }
+ footer a:hover{
+    color: black;
+    
+    
+
+ }
+ footer i{
+    transition: .4s;
+ }
+ footer i:hover{
+    
+     
+    transform: scale(1.1);
+    /* transition: .5s; */
+    color: black;
+    font-size: bolder;
+     
+ }
+
+ @media (max-width:768px){
+    .nav-link{
+        background:rgb(0,0,0,0.7)
+    }
+    .banner-container h1{
+        font-size:2.5rem;
+    }
+ }
+
+
+ .nav-text{
+    font-size:12px;
+    font-weight: lighter;
+ }
+
+ .carousel {
+    position: relative;
+    margin: -8rem -3rem;
+}
+
+.carousel-indicators{
+    margin-bottom: 6rem;
+}
+.s-text{
+    margin-bottom: 5rem;
+}
